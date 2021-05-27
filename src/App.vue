@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid container-sm m-5">
-    <div v-if="posts" class="w-75 m-auto">
+  <div class="container-fluid container-md my-5">
+    <div v-if="posts" class="m-auto">
       <div v-for="post in posts" :key="post.id" class="card mb-3">
         <div class="card-header">Id: {{ post.id }}</div>
         <div class="card-body">
