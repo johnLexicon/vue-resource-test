@@ -1,7 +1,6 @@
 <template>
   <div class="container-fluid container-sm m-5">
-    <h1 class="text-primary mb-4">Fetching data with VueResource</h1>
-    <div v-if="posts" class="d-flex flex-column w-75">
+    <div v-if="posts" class="w-75 m-auto">
       <div v-for="post in posts" :key="post.id" class="card mb-3">
         <div class="card-header">Id: {{ post.id }}</div>
         <div class="card-body">
